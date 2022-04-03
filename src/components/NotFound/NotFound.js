@@ -3,7 +3,7 @@ import React from 'react';
 const NotFound = () => {
       return (
             <div>
-                  <h1>It is A Not Allow</h1>
+                  <h1>It is Not Allowed</h1>
             </div>
       );
 };

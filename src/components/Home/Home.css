@@ -1,0 +1,23 @@
+.home-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      /* display: flex;
+      justify-content: space-between; */
+      align-items: center;
+      margin: 40px 30px;
+}
+
+.home-children-text {
+      align-items: center;
+      margin: 0 20px;
+
+}
+
+.home-children-text h1 {
+      font-size: 50px;
+}
+
+.home-children-img img {
+      width: 80%;
+      margin: 0 20px;
+}
