@@ -4,7 +4,7 @@ import './Reviews.css';
 
 
 const Reviews = (props) => {
-      const { name, id, phone, email, website, img, rating, comments } = props.Reviews
+      const { name, email, img, rating, review } = props.Reviews
 
       return (
             <div className='reviews-container'>
@@ -14,9 +14,7 @@ const Reviews = (props) => {
                         <h3>name: {name}</h3>
 
                         <h5>Email: {email}</h5>
-                        <h5>Website: {website}</h5>
-                        <h5>Phone: {phone}</h5>
-                        <h5>Comments: {comments}</h5>
+                        <h5>Review: {review}</h5>
                         <h3>Rating: {rating}</h3>
                   </div>
                   <div>
