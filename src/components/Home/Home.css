@@ -4,20 +4,28 @@
       /* display: flex;
       justify-content: space-between; */
       align-items: center;
-      margin: 40px 30px;
-}
-
-.home-children-text {
-      align-items: center;
-      margin: 0 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+      padding: 0 20px;
 
 }
+
+.home-children-text {}
 
 .home-children-text h1 {
       font-size: 50px;
 }
 
 .home-children-img img {
-      width: 80%;
-      margin: 0 20px;
+      width: 100%;
 }
+
+
+/* Cart Section */
+
+.cart-comtainer {}
+
+/* .cart-comtainer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+} */

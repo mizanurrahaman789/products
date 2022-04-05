@@ -1,0 +1,33 @@
+.shop-container {
+      margin: 50px;
+}
+
+.shop-text {
+      text-align: center;
+}
+
+.shop-item {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      text-align: center;
+      margin-left: 55px;
+}
+
+.button-text {
+
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 50px;
+}
+
+.button-text {
+
+      padding: 10px 20px;
+}
+
+.button-text button {
+      width: 300px;
+      background-color: #1C2B35;
+      color: #ffff;
+}

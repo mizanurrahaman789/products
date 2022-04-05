@@ -1,11 +1,11 @@
 import React from 'react';
 
-const About = () => {
+const Cart = () => {
       return (
             <div>
-                  <h1>Tell me your details</h1>
+
             </div>
       );
 };
 
-export default About;
+export default Cart;

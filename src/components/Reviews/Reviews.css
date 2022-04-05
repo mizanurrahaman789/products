@@ -1,0 +1,13 @@
+.reviews-container {
+      width: 310px;
+      height: 510;
+      border: 2px solid gray;
+      border-radius: 10px;
+      margin-top: 20px;
+}
+
+.reviews-container img {
+      width: 50%;
+      margin-top: 15px;
+      border-radius: 50%;
+}

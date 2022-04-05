@@ -1,9 +1,11 @@
 import React from 'react';
+import './NotFound.css'
 
 const NotFound = () => {
       return (
-            <div>
+            <div className='notfound'>
                   <h1>It is Not Allowed</h1>
+
             </div>
       );
 };
