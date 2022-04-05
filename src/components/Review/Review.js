@@ -1,13 +1,13 @@
-import React from 'react';
-import useReview from '../../hooks/useReview';
+import React, { useEffect, useState } from 'react';
+// import useReview from '../../hooks/useReview';
 
 const Review = () => {
-      const [Reviewss, setReviewss] = useReview();
+
+
 
       return (
-            <div>
-                  <h1>Tomi ami eije Eikhane{Reviewss.length}</h1>
-
+            <div >
+                  <h1>Reviews</h1>
             </div>
       );
 };

@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Reviews from '../Reviews/Reviews';
 import './Shop.css'
 
 const Shop = () => {
       const [Review, setReview] = useState([])
+
       useEffect(() => {
             fetch('Review.json')
                   .then(res => res.json())
@@ -24,7 +26,10 @@ const Shop = () => {
                         }
                   </div>
                   <div className='button-text'>
-                        <button><h1>See All Reviews</h1></button>
+                        <Link to="/Review">
+                              <button><h1>See All Reviews</h1></button>
+                        </Link>
+
                   </div>
             </div>
       );

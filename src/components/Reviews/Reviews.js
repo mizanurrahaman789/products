@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+
 import './Reviews.css';
 
 
@@ -18,7 +19,9 @@ const Reviews = (props) => {
                         <h5>Comments: {comments}</h5>
                         <h3>Rating: {rating}</h3>
                   </div>
+                  <div>
 
+                  </div>
             </div>
       );
 };
