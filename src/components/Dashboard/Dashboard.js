@@ -1,5 +1,6 @@
 import React from 'react';
-import { Line, LineChart, Pie, PieChart } from 'recharts';
+import { CartesianGrid, Legend, Line, LineChart, Pie, PieChart, Scatter, ScatterChart, Tooltip, XAxis, YAxis, ZAxis } from 'recharts';
+import './Dashboard.css'
 
 const Dashboard = () => {
       const data = [
@@ -42,19 +43,28 @@ const Dashboard = () => {
       ];
 
       return (
-            <div>
-                  <h1>hello</h1>
-
-                  <LineChart width={400} height={500} data={data}>
-
-                        <Line dataKey={'month'}></Line>
-                  </LineChart>
+            <div className='chart-item'>
 
 
-                  <PieChart width={730} height={250}>
-                        <Pie data={data} dataKey="value" nameKey="sell" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
-                        <Pie data={data} dataKey="value" nameKey="name" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
-                  </PieChart>
+                  <div >
+                        <LineChart width={400} height={500} data={data}>
+                              <XAxis dataKey="investment" ></XAxis>
+                              <YAxis dataKey=""></YAxis>
+                              <Line dataKey='sell'></Line>
+                        </LineChart>
+                  </div>
+
+
+                  <div>
+                        <PieChart width={730} height={250}>
+
+
+
+                              <Pie data={data} dataKey="sell" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
+                              <Pie data={data} dataKey="value" nameKey="name" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
+                        </PieChart>
+                  </div>
+
 
             </div>
       );
